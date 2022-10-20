@@ -21,7 +21,7 @@
             <li>
                 <span><a href="#hr">HR</a></span>
                 <ul>
-                    <li><span><a data-id="1">Jerrod Mcdow</a></span></li>
+                    <li><span><a href="#sub1">Jerrod Mcdow</a></span></li>
                     <li><span><a data-id="2">Sonya Sauage</a></span></li>
                     <li><span><a data-id="3">Bennie Clover</a></span></li>
                 </ul>
@@ -58,7 +58,7 @@
 		<div data-options="region:'center',title:'Main Title',iconCls:'icon-ok'">
             <h1>Pegawai</h1>
             <h2 id="hr">HR</h2>
-            <h3>Jerrod Mcdow</h3>
+            <h3 id="sub1">Jerrod Mcdow</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque sagittis. Imperdiet massa tincidunt nunc pulvinar sapien. Integer malesuada nunc vel risus commodo viverra maecenas accumsan. Mauris sit amet massa vitae tortor. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus.</p>
                 <h3>Sonya Sausage</h3>
                 <p>Massa sed elementum tempus egestas. Netus et malesuada fames ac. Faucibus et molestie ac feugiat sed lectus vestibulum. Velit laoreet id donec ultrices tincidunt arcu non. Ultricies lacus sed turpis tincidunt id. Nec ultrices dui sapien eget mi proin. Mus mauris vitae ultricies leo integer. Vel facilisis volutpat est velit. Risus quis varius quam quisque id diam vel.
