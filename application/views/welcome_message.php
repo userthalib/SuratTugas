@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-    <title>Collapse Title in Layout - jQuery EasyUI Demo</title>
+    <title>Sistem Informasi Surat Tugas</title>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>public/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>public/themes/icon.css">
     <script type="text/javascript" src="<?php echo base_url();?>public/jquery.min.js"></script>
