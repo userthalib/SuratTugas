@@ -41,7 +41,7 @@ $config['base_path']		= realpath(__DIR__ . '/../..');
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
