@@ -40,7 +40,7 @@
                     <li><span><a data-id="7">Surat Dinas</a></span></li>
                     <li><span><a data-id="8">Pelatihan</a></span></li>
                     <li><span><a data-id="9">Surat Ijin</a></span></li>
-                </ul>
+                </ul> 
             </li>
         </ul>
 
