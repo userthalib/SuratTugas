@@ -18,20 +18,20 @@
     <li>
         <span>Pegawai</span>
         <ul>
-            <li>
-                <span><a href="#hr">HR</a></span>
+            <li data-options="state:'closed'">
+                <span>HR</span>
                 <ul>
-                    <li><span><a href="#sub1">Jerrod Mcdow</a></span></li>
-                    <li><span><a data-id="2">Sonya Sauage</a></span></li>
-                    <li><span><a data-id="3">Bennie Clover</a></span></li>
+                    <li data-options="att:{'url':'asdf'}">File  Word</a></span></li>
+                    <li><span><a data-id="2">File Excel</a></span></li>
+                    <li><span><a data-id="3">File Power Point</a></span></li>
                 </ul>
             </li>
             <li>
                 <span><a href="#enginer">Engineering</a></span>
                 <ul>
-                    <li><span><a data-id="4">Alfonso Cohee</a></span></li>
-                    <li><span><a data-id="5">Mitchel Ruggles</a></span></li>
-                    <li><span><a data-id="6">Anamaria Taranto</a></span></li>
+                    <li><span><a data-id="4">File Image</a></span></li>
+                    <li><span><a data-id="5">File Video</a></span></li>
+                    <li><span><a data-id="6">File Audio</a></span></li>
                 </ul>
             </li>
             <li>
@@ -46,16 +46,25 @@
 
     </li>
 </ul>
-<!-- <script>
-    $('#tt').tree({
-        onClick: function(node){
-            var el = $(node.text);
-            alert(el.text());
+<script>
+    // $('#tt').tree({
+    //     onClick: function(node){
+    //         var el = $(node.text);
+    //         alert(el.text());
+    //     }
+    // });
+            $dir = "images";
+        if ($handle = opendir($dir)) {
+        while (false !== ($file = readdir($handle))) {
+        if ($file != "." && $file != "..") {
+        echo "$file<br>";
         }
-    });
-</script> -->
+        }
+        closedir($handle);
+        }
+</script>
 		</div>
-		<div data-options="region:'center',title:'Main Title',iconCls:'icon-ok'">
+		<!-- <div data-options="region:'center',title:'Main Title',iconCls:'icon-ok'">
             <h1>Pegawai</h1>
             <h2 id="hr">HR</h2>
             <h3 id="sub1">Jerrod Mcdow</h3>
@@ -94,4 +103,4 @@
 </div>
 
 </body>
-</html>
+</html> -->
